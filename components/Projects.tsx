@@ -6,14 +6,16 @@ import Project from "./Project";
 
 export default function Projects() {
   return (
-    <div>
+    <section id="projects" className="scroll-mt-28">
       <SectionHeading>My projects</SectionHeading>
+      <div>
       {projectsData.map((project) => (
         <React.Fragment key={project.title}>
           <Project {...project} />
         </React.Fragment>
       ))}
-    </div>
+      </div>
+    </section>
   );
 }
 

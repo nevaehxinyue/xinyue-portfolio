@@ -7,7 +7,7 @@ import { HiDownload } from "react-icons/hi";
 import { FaGithubSquare } from "react-icons/fa";
 const Intro = () => {
   return (
-    <section className="mb-28 max-w-[50rem] text-center sm:mb-0">
+    <section id="home" className="mb-28 max-w-[50rem] text-center sm:mb-0 scroll-mt-[100rem]">
       <div className="flex flex-col items-center justify-center">
         <div className="relative">
           <motion.div
