@@ -1,11 +1,20 @@
-import React from 'react'
+// import { sendEmailSchema } from '@/lib/validationSchema'
+// import React from 'react'
 
-const sendEmails = async (formData: FormData) => {
-  return (
-    <div>
-      
-    </div>
-  )
-}
+// const sendEmails = async (formData: FormData) => {
+//     const validation = sendEmailSchema.safeParse(formData);
+//     if(!validation.success) {
+//         const errors = validation.error.issues.map(issue => issue.message).join(",");
+//         return errors;
+//     }
 
-export default sendEmails
+//     try {
+//         await 
+//     }
+
+
+    
+
+// }
+
+// export default sendEmails
