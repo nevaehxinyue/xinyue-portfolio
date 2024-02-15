@@ -8,11 +8,13 @@ const ThemeSwitch = () => {
     const toggleTheme = () => {
         if(theme === 'light'){
             setTheme('dark');
+            document.documentElement.classList.add('dark');
             //Store the theme the user chose last time
             window.localStorage.setItem('theme', 'dark');
         }else {
             setTheme('light');
             window.localStorage.setItem('theme', 'light');
+            document.documentElement.classList.remove('dark');
         }
     }
 
@@ -21,8 +23,12 @@ const ThemeSwitch = () => {
         const localTheme = window.localStorage.getItem('theme') as Theme;
         if(localTheme) {
             setTheme(localTheme);
+            if(localTheme === 'dark') {
+                document.documentElement.classList.add('dark');
+            }
         }else if (window.matchMedia("(prefers-color-scheme: dark").matches) {
-            setTheme('dark'); // if no theme stored in the local storage, then use the user computer's theme
+            setTheme('dark'); 
+            document.documentElement.classList.add('dark'); // if no theme stored in the local storage, then use the user system's theme
         }
     }, [])
 
