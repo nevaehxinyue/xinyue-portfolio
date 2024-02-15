@@ -48,7 +48,7 @@ const Contact = () => {
       }}
     >
       <SectionHeading>Contact me</SectionHeading>
-      <p className="text-gray-700 -mt-6">
+      <p className="text-gray-700 -mt-6 dark:text-white/80">
         Please contact me directly at{" "}
         <a className="underline" href="mailto:xyue614@gmail.com">
           xyue614@gmail.com
@@ -56,11 +56,12 @@ const Contact = () => {
         or through this form.
       </p>
 
-      <form className="mt-10 flex flex-col " onSubmit={handleSubmit(onSubmit)}>
+      <form className="mt-10 flex flex-col dark:text-black " onSubmit={handleSubmit(onSubmit)}>
         <input
           type="email"
           placeholder="Your email"
-          className="h-14 px-4 rounded-lg borderBlack"
+          className="h-14 px-4 rounded-lg borderBlack 
+          dark:bg-white dark:bg-opacity-80 dark:focus:bg-opacity-100 transition-all dark:outline-none"
           required
           maxLength={500}
           {...register("email")}
@@ -70,7 +71,7 @@ const Contact = () => {
         )} */}
         <textarea
           placeholder="Your message"
-          className="h-52 my-3 rounded-lg borderBlack p-4"
+          className="h-52 my-3 rounded-lg borderBlack p-4 dark:bg-white dark:bg-opacity-80 dark:focus:bg-opacity-100 transition-all dark:outline-none"
           {...register("message")}
         />
         {/* {errors.message && (
@@ -80,7 +81,8 @@ const Contact = () => {
         <button
           className="group flex items-center justify-center gap-2 h-[3rem] w-[8rem]
         bg-gray-900 text-white rounded-full outline-none transition-all hover:scale-110
-        hover:bg-gray-950 active:scale-105 disabled:bg-opacity-75"
+        hover:bg-gray-950 active:scale-105 disabled:bg-opacity-75
+         dark:bg-white dark:bg-opacity-10"
           type="submit"
           disabled={isSubmitting}
         >
