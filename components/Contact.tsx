@@ -18,9 +18,6 @@ const Contact = () => {
     transition={{
         duration: 1
     }}
-    // viewport={{
-    //     once: true
-    // }}
     >
       <SectionHeading>Contact me</SectionHeading>
       <p className="text-gray-700 -mt-6">
@@ -32,7 +29,8 @@ const Contact = () => {
       </p>
 
       <form className="mt-10 flex flex-col ">
-        <input type="email" placeholder="Your email" className="h-14 px-4 rounded-lg borderBlack"></input>
+        <input type="email" placeholder="Your email" className="h-14 px-4 rounded-lg borderBlack"
+        required maxLength={500}></input>
         <textarea placeholder="Your message" className="h-52 my-3 rounded-lg borderBlack p-4"/>
         <button className="group flex items-center justify-center gap-2 h-[3rem] w-[8rem]
         bg-gray-900 text-white rounded-full outline-none transition-all hover:scale-110
