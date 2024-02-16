@@ -23,11 +23,11 @@ const About = () => {
         I love the feeling of building a solution to a problem step by step, during which I always witness how my knonwlege is expanded. 
         My core tech stack is <strong>React, Next.js, Node.js, and MySQL.</strong> I'm also proficient with <strong>TypeScript and Prisma</strong>. I consider work as
         <strong> a blend of contribution and continuous learning</strong>. I'm always looking to learn new technologies. I'm currently looking
-        for <strong>a full-time position</strong> as a software engineer. 
+        for <strong>a full-time position</strong> as a <strong>software engineer</strong>. 
       </p>
       <p>
         When I’m not in front of a computer screen, I’m usually reading
-        books, hiking, watching movies, and cooking. I also enjoy learning new things. I'm curently learning how to make cocktails.
+        books, hiking, watching movies, playing video games (PS), and cooking. I also enjoy learning new things. I'm curently learning how to make cocktails.
       </p>
     </motion.section>
   );

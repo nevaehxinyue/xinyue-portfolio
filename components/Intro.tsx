@@ -38,9 +38,9 @@ const Intro = () => {
         <motion.p className="mb-10 mt-4 px-4 text-2xl font-medium !leading-[1.5] sm:text-4xl"
         initial={{ opacity: 0, y: 100}}
         animate={{ opacity: 1, y: 0}}>
-          <strong>Hey, I'm Xin.</strong>I'm a final-year master
-          student at <strong>University of Auckland</strong> studying
-          Information Technology. I have some experience developing and desiging <i>sites and apps</i> . My focus is <u>React(Next.js)</u>.
+          Hey, I'm Xin. I'm currently a final year
+          student at <strong>University of Auckland</strong> pursuing <strong>a master degree in
+          Information Technology</strong>. I have some experience developing and desiging sites and apps. My focus is <u><strong>full-stack software development</strong></u>.
         </motion.p>
 
         <motion.div className="flex flex-col sm:flex-row items-center justify-center gap-2 px-4 text-lg font-medium"
