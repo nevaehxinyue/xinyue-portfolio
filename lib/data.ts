@@ -41,7 +41,7 @@ export const projectsData = [
        "Web app for project and issue management. Manage your projects and issues in one concise and intuitive interface. Get insights into your issue tracking progress.",
      tags: ["React", "Next.js", "NextAuth.js", "MySQL", "Prisma", "Tailwind", "Vercel" ],
      imageUrl: fixflow,
-     projectUrl: "https://fix-flow.vercel.app/"
+     projectUrl: "https://www.myfixflow.com/"
    },
    {
      title: "GameStellar",
@@ -57,7 +57,7 @@ export const projectsData = [
        "My first portfolio site.",
      tags: ["React", "Next.js", "TypeScript", "Tailwind", "Resend", "Framer"],
      imageUrl: portfolio,
-     projectUrl:""
+     projectUrl:"https://www.xinyueportfolio.com/"
    },
  ] as const;
 
