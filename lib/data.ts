@@ -86,7 +86,7 @@ export const experiencesData = [
     title: "University of Auckland",
     location: "Auckland, New Zealand",
     description:
-      "I'm currently studying Information Technology as a master student at University of Auckland. My focus is the full-stack software development. I'm proficient with React, Next.js, and MySQL. On top of that, I'm also familiar with Java and Python.",
+      "Learned modern web technologies, Java, and Python. ",
     icon: React.createElement(LuGraduationCap),
     date: "2023-present",
   },
