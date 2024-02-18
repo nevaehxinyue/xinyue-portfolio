@@ -9,8 +9,8 @@ This portfolio website was built with <a href="https://nextjs.org/">Next.js</a> 
 <br/>
 
 <div>
-<img width="1129" alt="image" src="https://github.com/nevaehxinyue/xinyue-portfolio/assets/151484982/b58196d5-f3b1-453e-8f0c-38a07f5194cf" style="width: 49%; margin-right: 2%;">&nbsp;&nbsp;&nbsp;
-<img width="1050" alt="image" src="https://github.com/nevaehxinyue/xinyue-portfolio/assets/151484982/72bc3bff-daaf-4a3b-b7a7-90e2c5590bb7" style="width: 49%;">
+<img width="1129" alt="image" src="https://github.com/nevaehxinyue/xinyue-portfolio/assets/151484982/b58196d5-f3b1-453e-8f0c-38a07f5194cf" style="width: 45%; margin-right: 2%;">&nbsp;&nbsp;&nbsp;
+<img width="1050" alt="image" src="https://github.com/nevaehxinyue/xinyue-portfolio/assets/151484982/72bc3bff-daaf-4a3b-b7a7-90e2c5590bb7" style="width: 45%;">
 
  
 
