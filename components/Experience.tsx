@@ -24,7 +24,6 @@ const Experience = () => {
                 <React.Fragment key={index}>
                     <VerticalTimelineElement
                     visible={inView}
-                    className='vertical-timeline-element'
                     contentStyle={{
                         background: 
                         theme === 'light' ? "#f3f4f6" : "rgba(255, 255, 255, 0.05)",
