@@ -18,7 +18,7 @@ This portfolio website was built with <a href="https://nextjs.org/">Next.js</a> 
 
 <br/>
 
-## Useful libraries
+## Useful Libraries
 - [react-intersection-observer](https://www.npmjs.com/package/react-intersection-observer): watch element's movement in viewport.
 - [framer-motion](https://www.npmjs.com/package/framer-motion): try some really cool animations.
 - [clsx](https://www.npmjs.com/package/clsx): nice tool for conditionally adding classNames.
