@@ -3,12 +3,12 @@ import Image from "next/image";
 import { motion } from "framer-motion";
 import Link from "next/link";
 import { BsArrowRight, BsLinkedin } from "react-icons/bs";
-import { HiDownload } from "react-icons/hi";
 import { FaGithubSquare } from "react-icons/fa";
 import { useInView } from "react-intersection-observer";
 import { useActiveSectionContext } from "@/context/ActiveSectionContext";
 import { useEffect } from "react";
 import { useSectionInView } from "@/lib/hooks";
+import { MdOutlineArrowOutward } from "react-icons/md";
 
 const Intro = () => {
   const { ref } = useSectionInView("Home", 0.5);
@@ -60,7 +60,7 @@ const Intro = () => {
 
         <a className=" bg-white px-7 py-3 flex items-center
         gap-2 rounded-full outline-none hover:scale-110 active:scale-105
-        transition cursor-pointer borderBlack dark:bg-white/10" href="/CV.pdf" download>Download CV <HiDownload className="opacity-60 group-hover:translate-y-1 transition" /></a>
+        transition cursor-pointer borderBlack dark:bg-white/10" href="/CV.pdf" target="_blank">View my resume <MdOutlineArrowOutward className="opacity-60 group-hover:translate-y-1 transition" /></a>
 
         <a className="bg-white p-4 text-gray-700 flex items-center
         gap-2 rounded-full outline-none hover:scale-[1.15] hover:text-gray-950

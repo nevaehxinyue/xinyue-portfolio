@@ -86,7 +86,7 @@ export const experiencesData = [
     title: "University of Auckland",
     location: "Auckland, New Zealand",
     description:
-      "Learned modern web technologies, Java, and Python. ",
+      "Focused on modern web technologies, Java, and Python. ",
     icon: React.createElement(LuGraduationCap),
     date: "2023-present",
   },

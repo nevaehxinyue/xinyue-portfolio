@@ -22,7 +22,7 @@ const Project = ({ title, description, tags, imageUrl, projectUrl }: ProjectProp
       ref={ref}
       style={{
         scale: scaleProgress,
-        opacity: scrollYProgress,
+        opacity: opacityProgress,
       }}
     >
       <section
